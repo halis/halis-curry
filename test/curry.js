@@ -6,8 +6,6 @@ const expect = require( 'chai' ).expect;
 const add = ( a, b, c ) => a + b + c;
 const curried = curry( add );
 
-console.log( curry( add, 'asdf' ) );
-
 describe( './src/curry.js', () => {
 
 	describe( '#curry()', () => {
