@@ -11,7 +11,7 @@ module.exports = function curry( fn ) {
 
 	return function curried() {
 		var args;
-		args = [].slice.call( arguments, 0 );
+		args = Array.prototype.slice.call( arguments, 0 );
 
 		if ( args.length >= arity ) {
 			return fn.apply( null, args );
@@ -19,7 +19,7 @@ module.exports = function curry( fn ) {
 		else {
 			return function partial() {
 				let args2;
-				args2 = [].slice.call( arguments, 0 );
+				args2 = Array.prototype.slice.call( arguments, 0 );
 				return curried.apply( null, args.concat( args2 ) ); 
 			}
 		}

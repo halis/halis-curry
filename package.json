@@ -1,25 +1,11 @@
 {
   "name": "halis-curry",
-  "version": "1.0.3",
+  "version": "1.0.7",
   "description": "Spice up the JavaScript inter-webs with some currying",
   "main": "./src/curry.js",
-  "scripts": {
-    "test": "clear && mocha \"test/**/*.js\" --watch"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/halis/halis-curry.git"
-  },
   "author": "Chris Grimes (http://halistechnology.com)",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/halis/halis-curry/issues"
-  },
   "homepage": "https://github.com/halis/halis-curry#readme",
-  "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^2.5.3"
-  },
   "keywords": [
     "functional",
     "curry",
@@ -28,5 +14,9 @@
     "partial application",
     "function",
     "curried"
-  ]
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/halis/halis-curry.git"
+  }
 }
