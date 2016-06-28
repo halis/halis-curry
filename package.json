@@ -1,6 +1,6 @@
 {
   "name": "halis-curry",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Spice up the JavaScript inter-webs with some currying",
   "main": "./src/curry.js",
   "scripts": {
